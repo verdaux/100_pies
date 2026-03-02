@@ -15,3 +15,18 @@ print(type(123))
 print(type(False))
 
 print(type(123_98.90))
+
+num = "123"
+
+print(int(num))
+
+convertedNum = int(num)
+
+print(type(convertedNum))
+
+str()
+bool()
+int()
+float()
+
+print("Number of letters in your name:: "+ str(len(input("Enter your name: "))))
