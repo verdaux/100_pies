@@ -30,3 +30,22 @@ int()
 float()
 
 print("Number of letters in your name:: "+ str(len(input("Enter your name: "))))
+
+print(2+2)
+print(4-2)
+print(3*2)
+print(6/3) # Implicit type conversion
+print(6//3)
+print(2 ** 2)
+
+score = 0
+
+#user scores a point
+
+score +=1
+print("score is : "+str(score))
+
+height = 1.8
+is_winning = True
+
+print(f"Your score now is = {score}, your height is {height}, and you are {is_winning}")
